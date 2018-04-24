@@ -13,7 +13,7 @@ STATE=$(cat /sys/class/drm/card0/device/power_dpm_force_performance_level)
 
 echo -e "DPM status is <$STATE>.\n"
 
-echo "Select an option, or press [Enter] to quit."
+echo "Choose an option, or press [Enter] to quit."
 
 if [[ $STATE == "auto" ]]
 then
